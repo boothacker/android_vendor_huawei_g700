@@ -119,6 +119,7 @@ PRODUCT_COPY_FILES += \
  vendor/micromax/a116/proprietary/bin/thermal:system/bin/thermal \
  vendor/micromax/a116/proprietary/bin/thermal_manager:system/bin/thermal_manager \
  vendor/micromax/a116/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
+ vendor/micromax/a116/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
  vendor/micromax/a116/proprietary/xbin/mnld:system/xbin/mnld \
  vendor/micromax/a116/proprietary/xbin/libmnlp_mt6628:system/xbin/libmnlp_mt6628 \
  vendor/micromax/a116/proprietary/lib/libssladp.so:system/lib/libssladp.so \
@@ -155,5 +156,4 @@ PRODUCT_COPY_FILES += \
  vendor/micromax/a116/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
  vendor/micromax/a116/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg
 PRODUCT_COPY_FILES += \
-  vendor/micromax/a116/proprietary/lib/hw/audio.primary.mt6589.so:system/lib/hw/audio.primary.mt6589.so \
-  vendor/micromax/a116/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so
+  vendor/micromax/a116/proprietary/lib/hw/audio.primary.mt6589.so:system/lib/hw/audio.primary.mt6589.so
