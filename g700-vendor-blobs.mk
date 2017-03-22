@@ -45,11 +45,13 @@ PRODUCT_COPY_FILES += \
  vendor/huawei/g700/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
  vendor/huawei/g700/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
  vendor/huawei/g700/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
+ vendor/huawei/g700/proprietary/bin/drvbd:system/bin/drvbd \
  vendor/huawei/g700/proprietary/bin/6620_launcher:system/bin/6620_launcher \
  vendor/huawei/g700/proprietary/bin/akmd8963:system/bin/akmd8963 \
  vendor/huawei/g700/proprietary/bin/akmd8975:system/bin/akmd8975 \
  vendor/huawei/g700/proprietary/bin/ami304d:system/bin/ami304d \
  vendor/huawei/g700/proprietary/bin/bmm050d:system/bin/bmm050d \
+ vendor/huawei/g700/proprietary/bin/drvbd:system/bin/drvbd \
  vendor/huawei/g700/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
  vendor/huawei/g700/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
  vendor/huawei/g700/proprietary/bin/geomagneticd:system/bin/geomagneticd \
@@ -110,6 +112,9 @@ PRODUCT_COPY_FILES += \
  vendor/huawei/g700/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
  vendor/huawei/g700/proprietary/lib/libaudio.a2dp.default.so:system/lib/libaudio.a2dp.default.so \
  vendor/huawei/g700/proprietary/lib/libdpframework_plat.so:system/lib/libdpframework_plat.so \
+ vendor/huawei/g700/proprietary/lib/libdrmmtkplugin.so:system/lib/libdrmmtkplugin.so \
+ vendor/huawei/g700/proprietary/lib/libdrmmtkutil.so:system/lib/libdrmmtkutil.so \
+ vendor/huawei/g700/proprietary/lib/libdrmmtkwhitelist.so:system/lib/libdrmmtkwhitelist.so \
  vendor/huawei/g700/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
  vendor/huawei/g700/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
  vendor/huawei/g700/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
