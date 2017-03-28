@@ -51,11 +51,11 @@ PRODUCT_COPY_FILES += \
  vendor/huawei/g700/proprietary/bin/akmd8975:system/bin/akmd8975 \
  vendor/huawei/g700/proprietary/bin/ami304d:system/bin/ami304d \
  vendor/huawei/g700/proprietary/bin/bmm050d:system/bin/bmm050d \
- vendor/huawei/g700/proprietary/bin/drvbd:system/bin/drvbd \
  vendor/huawei/g700/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
  vendor/huawei/g700/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
  vendor/huawei/g700/proprietary/bin/geomagneticd:system/bin/geomagneticd \
  vendor/huawei/g700/proprietary/bin/hald:system/bin/hald \
+ vendor/huawei/g700/proprietary/bin/hostapd:system/bin/hostapd \
  vendor/huawei/g700/proprietary/bin/memsicd:system/bin/memsicd \
  vendor/huawei/g700/proprietary/bin/msensord:system/bin/msensord \
  vendor/huawei/g700/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
@@ -72,6 +72,7 @@ PRODUCT_COPY_FILES += \
  vendor/huawei/g700/proprietary/bin/thermal:system/bin/thermal \
  vendor/huawei/g700/proprietary/bin/thermal_manager:system/bin/thermal_manager \
  vendor/huawei/g700/proprietary/bin/wlan_loader:system/bin/wlan_loader \
+ vendor/huawei/g700/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
  vendor/huawei/g700/proprietary/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
  vendor/huawei/g700/proprietary/lib/libion.so:system/lib/libion.so \
  vendor/huawei/g700/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
@@ -126,12 +127,14 @@ PRODUCT_COPY_FILES += \
  vendor/huawei/g700/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
  vendor/huawei/g700/proprietary/lib/libcam.camshot.so:system/lib/libcam.camshot.so \
  vendor/huawei/g700/proprietary/lib/libm4u.so:system/lib/libm4u.so \
+ vendor/huawei/g700/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
  vendor/huawei/g700/proprietary/lib/hw/hwcomposer.mt6589.so:system/lib/hw/hwcomposer.mt6589.so \
  vendor/huawei/g700/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
  vendor/huawei/g700/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
  vendor/huawei/g700/proprietary/lib/hw/libaudio.r_submix.default.so:system/lib/hw/libaudio.r_submix.default.so \
  vendor/huawei/g700/proprietary/lib/hw/libaudio.usb.default.so:system/lib/hw/libaudio.usb.default.so \
  vendor/huawei/g700/proprietary/lib/hw/audio_policy.stub.so:system/lib/hw/audio_policy.stub.so \
+ vendor/huawei/g700/proprietary/lib/hw/bluetooth.default.so:system/lib/hw/bluetooth.default.so \
  vendor/huawei/g700/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
  vendor/huawei/g700/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
  vendor/huawei/g700/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
