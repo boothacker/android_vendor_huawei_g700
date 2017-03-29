@@ -121,6 +121,7 @@ PRODUCT_COPY_FILES += \
  vendor/huawei/g700/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
  vendor/huawei/g700/proprietary/lib/libimageio.so:system/lib/libimageio.so \
  vendor/huawei/g700/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
+ vendor/huawei/g700/proprietary/lib/libmnl.so:system/lib/libmnl.so \
  vendor/huawei/g700/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
  vendor/huawei/g700/proprietary/lib/libaed.so:system/lib/libaed.so \
  vendor/huawei/g700/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
