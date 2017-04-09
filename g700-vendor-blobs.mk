@@ -98,6 +98,10 @@ PRODUCT_COPY_FILES += \
  vendor/huawei/g700/proprietary/lib/libhwm.so:system/lib/libhwm.so \
  vendor/huawei/g700/proprietary/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
  vendor/huawei/g700/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
+ vendor/huawei/g700/proprietary/lib/libfmcust.so:system/lib/libfmcust.so \
+ vendor/huawei/g700/proprietary/lib/libfmjni.so:system/lib/libfmjni.so \
+ vendor/huawei/g700/proprietary/lib/libfmmt6628.so:system/lib/libfmmt6628.so \
+ vendor/huawei/g700/proprietary/lib/libmtkplayer.so:system/lib/libmtkplayer.so \
  vendor/huawei/g700/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
  vendor/huawei/g700/proprietary/lib/libbessound_mtk.so:system/lib/libbessound_mtk.so \
  vendor/huawei/g700/proprietary/lib/libcam.campipe.so:system/lib/libcam.campipe.so \
