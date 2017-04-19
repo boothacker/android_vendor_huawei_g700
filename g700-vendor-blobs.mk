@@ -41,10 +41,6 @@ PRODUCT_COPY_FILES += \
  vendor/huawei/g700/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
  vendor/huawei/g700/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
  vendor/huawei/g700/proprietary/etc/gps.conf:system/etc/gps.conf \
- vendor/huawei/g700/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
- vendor/huawei/g700/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
- vendor/huawei/g700/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
- vendor/huawei/g700/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
  vendor/huawei/g700/proprietary/bin/drvbd:system/bin/drvbd \
  vendor/huawei/g700/proprietary/bin/6620_launcher:system/bin/6620_launcher \
  vendor/huawei/g700/proprietary/bin/akmd8963:system/bin/akmd8963 \
@@ -55,7 +51,6 @@ PRODUCT_COPY_FILES += \
  vendor/huawei/g700/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
  vendor/huawei/g700/proprietary/bin/geomagneticd:system/bin/geomagneticd \
  vendor/huawei/g700/proprietary/bin/hald:system/bin/hald \
- vendor/huawei/g700/proprietary/bin/hostapd:system/bin/hostapd \
  vendor/huawei/g700/proprietary/bin/memsicd:system/bin/memsicd \
  vendor/huawei/g700/proprietary/bin/msensord:system/bin/msensord \
  vendor/huawei/g700/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
@@ -72,7 +67,6 @@ PRODUCT_COPY_FILES += \
  vendor/huawei/g700/proprietary/bin/thermal:system/bin/thermal \
  vendor/huawei/g700/proprietary/bin/thermal_manager:system/bin/thermal_manager \
  vendor/huawei/g700/proprietary/bin/wlan_loader:system/bin/wlan_loader \
- vendor/huawei/g700/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
  vendor/huawei/g700/proprietary/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
  vendor/huawei/g700/proprietary/lib/libion.so:system/lib/libion.so \
  vendor/huawei/g700/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
@@ -132,8 +126,7 @@ PRODUCT_COPY_FILES += \
  vendor/huawei/g700/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
  vendor/huawei/g700/proprietary/lib/libcam.camshot.so:system/lib/libcam.camshot.so \
  vendor/huawei/g700/proprietary/lib/libm4u.so:system/lib/libm4u.so \
- vendor/huawei/g700/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
- vendor/huawei/g700/proprietary/lib/hw/hwcomposer.mt6589.so:system/lib/hw/hwcomposer.mt6589.so \
+ vendor/huawei/g700/proprietary/lib/hw/hwcomposer.mt6589.so:system/lib/hw/hwcomposer.mt6589.so.bak \
  vendor/huawei/g700/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
  vendor/huawei/g700/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
  vendor/huawei/g700/proprietary/lib/hw/libaudio.r_submix.default.so:system/lib/hw/libaudio.r_submix.default.so \
