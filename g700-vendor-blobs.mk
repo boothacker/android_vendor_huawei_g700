@@ -126,7 +126,7 @@ PRODUCT_COPY_FILES += \
  vendor/huawei/g700/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
  vendor/huawei/g700/proprietary/lib/libcam.camshot.so:system/lib/libcam.camshot.so \
  vendor/huawei/g700/proprietary/lib/libm4u.so:system/lib/libm4u.so \
- vendor/huawei/g700/proprietary/lib/hw/hwcomposer.mt6589.so:system/lib/hw/hwcomposer.mt6589.so.bak \
+ vendor/huawei/g700/proprietary/lib/hw/hwcomposer.mt6589.so:system/lib/hw/hwcomposer.mt6589.so \
  vendor/huawei/g700/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
  vendor/huawei/g700/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
  vendor/huawei/g700/proprietary/lib/hw/libaudio.r_submix.default.so:system/lib/hw/libaudio.r_submix.default.so \
